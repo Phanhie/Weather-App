@@ -106,14 +106,21 @@ body {
     color: red;
     display: none;
 }
-@media only screen and (max-width: 770px) {
+
+
+@media only screen and (max-width: 700px) {
     .main-container {
         width: 70%;
     }
 
     .footer img {
-        height: 50px;
+        height: 40px;
+        width: 40px;
+    }
 
+    .footer{
+        width: 100%;
+        margin: auto;
     }
 
     .footer .hum-percent, .Wind-speed {
@@ -121,7 +128,9 @@ body {
         margin-bottom: 5px;
     }
     
-
+    .search-bar input {
+        width: 350px;
+    }
 
 }
     
